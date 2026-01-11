@@ -31,5 +31,11 @@ run the viewer with:
 
     bv
 
-    
+=== Problems / Issues
+
+try to run
+
+    bd doctor
+
+
 
