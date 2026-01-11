@@ -1,0 +1,35 @@
+== Beads-Sandbox
+
+This repository is a playground to explore the features of https://github.com/steveyegge/beads[Beads] and the https://github.com/Dicklesworthstone/beads_viewer?tab=readme-ov-file[Beads-Viewer].
+
+=== Getting Started
+
+To get started with Beads, follow these steps:
+
+[source, bash]
+----
+# Install (macOS/Linux/FreeBSD)
+curl -fsSL https://raw.githubusercontent.com/steveyegge/beads/main/scripts/install.sh | bash
+
+# Initialize (Humans run this once)
+bd init
+
+----
+
+Once you have Beads installed and initialized, you can start creating and managing your tasks.
+
+Ask your LLM to create a new Beads tasks which instructs it to test Beads.
+Then ask the LLM to execute the task.
+
+=== Beads-Viewer
+
+install the Beads-Viewer by following the instructions in its repository:
+
+    curl -fsSL "https://raw.githubusercontent.com/Dicklesworthstone/beads_viewer/main/install.sh?$(date+%s)" | bash
+
+run the viewer with:
+
+    bv
+
+    
+
